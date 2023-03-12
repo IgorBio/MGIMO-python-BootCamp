@@ -1,0 +1,1 @@
+SELECT region FROM stores GROUP BY 1 LIMIT 3 OFFSET 6;

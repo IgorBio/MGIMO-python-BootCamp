@@ -1,1 +1,1 @@
-SELECT DISTINCT name FROM products ORDER BY name asc ;
+SELECT DISTINCT brand from products ORDER BY  1 asc ;

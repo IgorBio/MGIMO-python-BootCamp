@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+    psql_bot:
+        container_name: psql_bot    
+        image: postgres:latest
+        environment:
+            POSTGRES_PASSWORD: "postgres"
+            POSGRES_USER: "postgres"
+            POSTGRES_DB: "postgres"
+        ports:
+            - "5432:5432"
+
